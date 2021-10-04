@@ -8,11 +8,11 @@ import styles from '../styles/Home.module.scss'
 export default function Home() {
   return (
     <div>
-      <h1>Homepage</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur incidunt, natus dolores quo a, aliquam iste consequatur architecto error ducimus ex. Autem voluptatem rerum exercitationem minima voluptate tempore facilis sit.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur incidunt, natus dolores quo a, aliquam iste consequatur architecto error ducimus ex. Autem voluptatem rerum exercitationem minima voluptate tempore facilis sit.</p>
+      <h1 className={styles.title}>Homepage</h1>
+      <p className={styles.text}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur incidunt, natus dolores quo a, aliquam iste consequatur architecto error ducimus ex. Autem voluptatem rerum exercitationem minima voluptate tempore facilis sit.</p>
+      <p className={styles.text}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur incidunt, natus dolores quo a, aliquam iste consequatur architecto error ducimus ex. Autem voluptatem rerum exercitationem minima voluptate tempore facilis sit.</p>
       <Link href="/ninjas">
-        See Ninja List
+        <a className={styles.btn}>See Ninja List</a>
       </Link>
     </div>
   )
